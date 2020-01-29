@@ -231,7 +231,7 @@ img {
 }
 
 .ln-break {
-  border: solid 2px black;
+  border: solid 1px black;
   margin: 2% 5%;
 }
 
@@ -398,10 +398,28 @@ ul li {
     margin-top: 20%;
   }
 
+  .btn {
+    width: 70%;
+  }
 
-  
+  .about {
+    flex-direction: column;
+  }
 
+  .about div {
+    width: 100%;
+    padding: 5% 0;
+  }
 
+  .services {
+    flex-direction: column;
+  }
+
+  .services div {
+    width: 100%;
+    padding: 5% 0;
+    margin: 2% 0;
+  }
 
   .service-brkdwn {
     display: flex;
