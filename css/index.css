@@ -338,6 +338,8 @@ ul li {
 }
 
 @media only screen and (max-width: 800px) {
+
+  /* Index.html media queries */
   #img {
     display: flex;
     order: -1;
@@ -360,6 +362,7 @@ ul li {
 
   .btn {
     width: 45%;
+    font-size: 80%;
   }
 
   h3 {
@@ -372,9 +375,36 @@ ul li {
   .services div {
     margin-right: 7%;
   }
+
+/* Services.html media queries */
+  .full-img {
+    margin: 5%;
+  }
+
+  .service{
+    margin-bottom: 5%;
+  }
+
+  .service-brkdwn{
+    margin-top: 5%;
+  }
+
+  .card {
+    margin-top: 5%;
+  }
+  .card button{
+    margin-top: 5%;
+  }
+
+  ul {
+    font-size: 50%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
+
+  /* Index.html media queries */
+
   .navbar {
     flex-direction: column;
     flex-wrap: nowrap;
@@ -425,6 +455,21 @@ ul li {
     padding-top: 5%;
   }
 
+/* Service.html media queries */
+
+  .full-img {
+    margin: 20% 5% 10% 5%;
+  }
+
+  .card, .card h3 {
+    text-align: center;
+  }
+
+  .card button {
+    width: 50%;
+    margin: 4% 25%;
+  }
+
   .service-brkdwn {
     display: flex;
     flex-direction: column;
@@ -435,6 +480,15 @@ ul li {
   .card {
     width: 100%;
     margin-top: 2%;
+  }
+
+  #facts {
+    margin-top: 5%;
+    width: 100%;
+  }
+
+  .services-info-img {
+    display: none;
   }
 }
 
